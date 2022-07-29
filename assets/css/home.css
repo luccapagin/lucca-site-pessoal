@@ -26,7 +26,7 @@ body.dark {
 }
 
 .dark a {
-  color: rgb(255, 255, 255);
+  color: var(--vermelho);
 }
 
 .dark i {
