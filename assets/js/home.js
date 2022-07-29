@@ -4,4 +4,5 @@ const checkbox =
 checkbox.addEventListener('change', () => {
     document.body.classList.toggle('dark');
 
-}); 
+});
+
