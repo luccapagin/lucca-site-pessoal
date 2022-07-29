@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucca Pagin</title>
+    <link rel="stylesheet" href="assets/css/home.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets\img\apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets\img\favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets\img\favicon-16x16.png"
+    />
+  </head>
+  <body>
+    <header class="header__home">
+      <h1 class="header__titulo">
+        olá, eu eu sou o<br />
+        <span class="header__nome">lucca pagin <br /></span>
+      </h1>
+
+      <nav class="header__nav">
+        <a class="header__nav__link" href="index.html"> home</a><br />
+        <!---<a class="header__nav__link" href="#">portfólio</a><br />-----!-->
+        <a class="header__nav__link" href="usos.html">usos</a><br />
+      </nav>
+
+      <nav class="header__nav__sociais">
+        <i class="fa-brands fa-linkedin"></i
+        ><a
+          class="header__nav__link"
+          href="https://www.linkedin.com/in/luccapagin/"
+          >linkedin</a
+        ><br />
+        <i class="fa-brands fa-github"></i
+        ><a class="header__nav__link" href="https://github.com/luccapagin"
+          >github</a
+        ><br />
+        <i class="fa-solid fa-at"></i
+        ><a class="header__nav__link" href="mailto:luccap2002@gmail.com"
+          >e-mail</a
+        ><br />
+      </nav>
+      <div class="dark-mode">
+        <input placeholder="#" type="checkbox" id="checkbox" />
+        <label for="checkbox" class="label">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <div class="ball"></div>
+        </label>
+      </div>
+      <p class="kaomoji">(-ω-) Zzzzzz...</p>
+    </header>
+    <main class="main__home">
+      <div class="home__sobre">
+        <h2 class="main__titulo">sobre</h2>
+        <p class="main__texto">
+          Sou estudante de Ciências da Computação na PUC Poços de Caldas.
+          <br />Mais especificamente, estudo as áreas de Desenvolvimento Web e
+          programação de front-end.<br />
+          Também me interesso por projetos Open Source. Além disso, sou um
+          grande amante de música e filmes.
+          <br />
+        </p>
+        <div class="home__portfolio">
+          <h2 class="main__titulo">portfólio</h2>
+          <p class="main__texto">
+            Aqui você pode ver alguns dos projetos que eu fiz.
+          </p>
+
+          <div class="galeria">
+            <div class="galeria__item">
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://luccapagin.github.io/alura-books/"
+              >
+                <img src="assets/img/alura-books.png" alt="Alura Books>" />
+              </a>
+              <div class="galeria__descricao">
+                <h4 class="galeria__titulo">Alura Books</h4>
+                <p class="galeria__texto">
+                  Um site para uma empresa falsa chamada Alura Books, feito em
+                  HTML e CSS.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="galeria">
+            <div class="galeria__item">
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://luccapagin.github.io/Bin2Dec/"
+              >
+                <img src="assets/img/bin2dec.png" alt="Bin2Dec" />
+              </a>
+              <div class="galeria__descricao">
+                <h4 class="galeria__titulo">Bin2Dec</h4>
+                <p class="galeria__texto">
+                  Um programa simples feito em HTML, CSS e JavaScript para
+                  converter número binários para números decimais.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="galeria">
+            <div class="galeria__item">
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://luccapagin.github.io/fruta-e-fruto/"
+              >
+                <img src="assets/img/fruta-e-fruto.png" alt="Fruta e Fruto" />
+              </a>
+              <div class="galeria__descricao">
+                <h4 class="galeria__titulo">Fruta e Fruto</h4>
+                <p class="galeria__texto">
+                  Um site para uma empresa falsa chamada Fruta e Fruto, feito em
+                  HTML e CSS.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="galeria">
+            <div class="galeria__item">
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://luccapagin.github.io/sound-machine/"
+              >
+                <img src="assets/img/sound-machine.png" alt="Sound Machine" />
+              </a>
+              <div class="galeria__descricao">
+                <h4 class="galeria__titulo">Sound Machine</h4>
+                <p class="galeria__texto">
+                  Um "instrumento musical" simples feito em HTML, CSS e
+                  JavaScript.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="assets/js/home.js"></script>
+</html>
